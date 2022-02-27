@@ -5,7 +5,7 @@ import Contact from "../Contact/Contact";
 import Project from "../Projects/Project";
 import Footer from "../Footer/Footer";
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -56,6 +56,7 @@ const Main = () => {
           <Route exact path="/home" component={Home} />
           <Route exact path="/project" component={Project} />
           <Route exact path="/contact" component={Contact} />
+          <Redirect to="/home" />
         </Switch>
         <Footer />
       </ThemeProvider>
