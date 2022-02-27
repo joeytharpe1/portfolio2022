@@ -1,0 +1,13 @@
+.skill-text{
+    color: #027e55;
+}
+.linkedin-text{
+    color: #027e55;
+    transition: transform 0.15s ease-in-out;
+}
+.linkedin-text:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.05, 1.05, 1)
+}

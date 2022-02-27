@@ -1,0 +1,20 @@
+.skilltext-card{
+border: 1px solid black;
+margin-bottom: 5px;
+}
+.skillbutton-btn{
+    font-style: italic;
+    align-items: center;
+}
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skilltext-header{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.skilltext-header:hover{
+    color: #027e55;
+}
